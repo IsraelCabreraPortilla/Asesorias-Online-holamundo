@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "luminous-empire-361706",
+  "private_key_id": "2c869c5bfbb985094903317cba8c86da3491d630",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDJkmdG+WzheagI\nfDacw+wEIhPtnpBvyKNDfPyjDAnZetQnt4p/v+reud7hI8sVQ34Y8/nKiGFbAB1q\nSys5zW0LdqA0c7J+wnHZ6alnhq2mhY6rdq2yqBZQPk9Kj4NAAsYjIedz9NB8w7Lx\nuHpzk0Qfg/2TuVM+clmEAkS+luHJ9TLO8eTy9LAPl2PI7xLtQcxtbq205xcVQg85\nci17dwB+26Mim1AMSXkoHw7OjpGdI817sj6O0O94o9x0zv/Av2LmxNiA8esbaZbf\nVPj0EmEe4bXyCT1pb9DKhpxb+Llbf7eNQIMNiWx1pyjm3XvGJ21Hu4o50WXEAIy4\nho3YxFa7AgMBAAECggEAWibXd//QOZvOklTzm/NoWIThQtI7KTOkCWgaGdYlhZYQ\n0t6c2/v60LhyvWDj0FPKTuC3ZGTQngGUJlkOMSD2Vz0r86mXOGhAwURnFr0+Zw6u\nu3Mtxoy0xhjIH8HF4tgaw9XDDbJ9mH9yRffLFGvV+P5waCRn3bMI5CiblF4pB8iN\nsBJMsgdsEFc13BJc8HAk/qz/d9aTR2VQ9iX623Ok/AJQ0MJ8ijlluHe5FOQ2KHhl\n5Ute2w8opAmMJREjUp9EbDQwIk0BTUDGwQoLpxjgKjNhMtOWb3IXmkIp6E4W3QIo\nrahl3Y/pwwB2m/gJGc8+dl7FSAHm6GU393nUTP1XmQKBgQD1S8WwoHyMxesth3Q/\nPGD0aeXYYFvPcdB96xMfwtaZNFQ+N9Gj28siWXXynvohHiwj+FdZCDfkzHx3y4iJ\nnZHHwWTwDSNWeRNJjjZkNGlbEKfOC6qid9sjI835anmfWaSONbvm3NKXjJHLESY/\nmwQ4v69dA5pAYmfwBom1H2Bt9wKBgQDSXi9DZxtE7JfIEyur2Tg0mE7mY5eccfF7\nRDJhKUxsSjq0Ask1BIBUtlmnHqaj975147tIaFEy9dlc3X4uNPkEyZNmeElHOR5u\nWaVAiPJDmBha+er99bmLNdiXrChst3XZyUJb1s8ipuDckaoFHrTFZ4U5G/xgTnEJ\nGDqP+x28XQKBgQCQkWzc0Wk2ins15SxFDK/TvQoCwZ+6nkiTvdUSlgFmX+n6lWlP\n2n1ZLEKQkNO4axD2zimkxmwyw7Xj4KgC+0Ps5/U2aXfXQhp08oTp/93MFv/fNw8F\nHACiMDr38aHmoa2TRuYMhT70pJtUhDH3sMQHMioHdtUVdyns092bSvfJNwKBgQCn\nWuhMvfTysynYsG+YqhlNtjFmlapiej866jkOFNXIfJEQ7fp15BvXyK2wBvFZFll9\n3er7IooeeXkvqMGeLuRAS8Coz160e5ta/JQ7r/bTkWcm0RWCbf7q4a5qkzohqx3l\nYXgaKdzlW08eCf/xTMlRFhblJP90+lJwgsbsDkFMvQKBgQCt/nruvXmPYO0l2pnt\n++oXzrpEPwZAAldvsfSvphHrOcbDyW+2GE68KsO5oIrY273KA+DwibPCVeyGyfbD\nC0/DV5AaRdDcQ3Z/IMycrsq8LJbkche5iEAUAusNLsmbnkoOLOOeR9lacm+Ng3gk\nRU0reksoa0UJvj1lD3n/YZGdUA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "servacctest@luminous-empire-361706.iam.gserviceaccount.com",
+  "client_id": "110336559313746893485",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/servacctest%40luminous-empire-361706.iam.gserviceaccount.com"
+}

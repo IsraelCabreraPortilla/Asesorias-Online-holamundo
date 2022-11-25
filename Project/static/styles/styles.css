@@ -1,0 +1,63 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: #F0F0F0;
+} 
+
+.card{border-radius: 10px !important;
+    margin-top: 60px;
+    margin-bottom: 60px}
+
+.btn{
+    background-color: #2F5463;
+    color: white;
+    border: 1px solid #2F5463
+}
+
+.btn:hover {
+    background-color: #138496; 
+    border: 1px solid #138496;
+    color: white;
+}
+
+textarea {
+    cursor: auto;
+}
+
+textarea {
+    cursor: auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment  {
+    height: 10px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-track-piece  {
+    background-color: #eeeeee;
+    -webkit-border-radius: 16px;
+    border-radius: 16px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    height: 10px;
+    background-color: #666;
+    border: 1px solid #eee;
+    -webkit-border-radius: 16px;
+    border-radius: 16px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    height: 10px;
+    background-color: #666;
+    border: 1px solid #eee;
+    -webkit-border-radius: 16px;
+    border-radius: 16px;
+}

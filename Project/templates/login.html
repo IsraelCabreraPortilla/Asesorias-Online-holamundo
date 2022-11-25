@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block title %}
+Asesorias Online - Iniciar Sesión
+{% endblock %}
+
+{% block head %}
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class=" col-lg-6 col-md-8">
+            <div class="card p-3">
+
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <h3 class="title">Iniciar Sesión</h3>
+                        {% with messages = get_flashed_messages() %}
+                            {% if messages %}
+                            <div>
+                                {{ messages[0] }}
+                            </div>
+                            {% endif %}
+                        {% endwith %}
+                    </div>
+                </div>
+                
+                <div class="card-body">
+                    <form method="POST" action="/login" class="form-card">
+                        <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div><br>
+                        <div class="form-group">
+                        <label for="password">Contraseña</label>
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                        </div><br>
+
+                        
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="remember" name="remember">
+                            <label class="form-check-label" for="remember">Remember me</label>
+                        </div><br>
+                        <button type="submit" class="btn btn-info">Submit</button>
+                        <br><br><a href = "{{ url_for('auth.signup') }}"  style="color:gray;">Registrarme</a>
+                    </form>
+                </div>    
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+
+{% block title %}
+Asesorias Online - Quiero ser asesor
+{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('quieroSerAsesor.booking', filename='layout_booking.css') }}">
+<script>
+    if ( window.history.replaceState ) {
+        window.history.replaceState( null, null, window.location.href );
+    }
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="card-body">
+    <form action="#" method="post" >
+        <h1>Quiero Ser Asesor</h1>
+
+        <div>
+            <label for="materias">Elige Materia:</label>
+            <select class="input form-control" name="materias" id="materias">
+                <option value=""></option>
+                {%for materia in materias%}
+                <option id="{{materia}}" value="{{materia}}">{{materia}}</option>
+                {%endfor%}
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input  class="input form-control" type="text" id="nombre" name="nombre" required="required">
+        </div>
+        <br>
+        <div>
+            <label for="nombre">Apellido:</label>
+            <input  class="input form-control" type="text" id="apellido" name="apellido" required="required">
+        </div>
+        <br>
+        <div>
+            <label for="nombre">Clave Única ITAM:</label>
+            <input  class="input form-control" type="number" id="cu" name="cu" required="required">
+        </div>
+        <br>
+        <div>
+            <label for="nombre">Teléfono (Para que la persona que busque la asesoria se ponga en contacto contigo):</label>
+            <input  class="input form-control" type="number" id="telefono" name="telefono" required="required">
+        </div>
+        <br>
+        <div>
+            <label for="nombre">Correo eléctronico personal (Para que la persona que busque la asesoria se ponga en contacto contigo):</label>
+            <input  class="input form-control" type="text" id="correo" name="correo" required="required">
+        </div>
+        
+        <br>
+        <div>
+            <label for="precio">Precio: $ </label>
+            <input type="number" class="input form-control"  name="tarifa" id="tarifa" required="required">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Enviar" style="height:65px; width:140px" class="btn btn-info">
+        </div>
+
+    </form>
+    <script>
+        function addOption(selectbox, text, value) {
+            var optn = document.createElement("OPTION");
+            optn.text = text;
+            optn.value = value;
+            selectbox.options.add(optn);
+        }
+        $(function () {
+            $("#code").select2();
+        });
+        $(function () {
+            $("#coin").select2();
+        }); 
+    </script>
+</div>
+
+
+{% endblock %}

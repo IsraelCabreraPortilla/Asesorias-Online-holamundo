@@ -1,0 +1,32 @@
+h4{
+    font-weight: bold;
+    display: inline;
+    font-size: 20px;
+}
+
+.common{
+    border: solid 1px #D7D7D7;
+    position: absolute;
+}
+
+.dashboardInputs{
+    top: 89px;
+    height: 300px;
+    left: 10px;
+    width: 300px;
+
+    padding: 10px;
+
+    border-radius: 7px;
+    background-color: white;
+
+}
+
+.dashboardDisplay{
+    top: 89px;
+    height: 358px;
+    right: 10px;
+    left: 322px;
+
+    border: none;
+}

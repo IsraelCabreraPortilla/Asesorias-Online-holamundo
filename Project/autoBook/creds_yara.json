@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "osl-functionality",
+  "private_key_id": "1757c7640355a4f65a5f7fa05ce1d9961763720e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDyUTT+8qQX5YFF\niPpk/xZQ7LaVoW8Fmf+NzDQfeeMLnhbpqMLEfEmYEd7M9k1x8cvR7SE8kQbkNlOH\n/qG4Cvhz4JKDMSXm86gTceSOihRQ5YHBHOleLKY5uwaxYsgiIBfAa+jUDROUN3Td\nz1PlK5HrStl8wHVzlL7jAbG3Dmmrlow+nWPAKA9rcigGUWWhJU4nxAyKp1unTK/p\nnrDiVbzl7xB5MmO0G6qgJOn/i+h6dqbbDGjK+praHBDav7xWqaM/RypUzAgGHgHv\n+AzZ8aPm88nw45gHs770ah1ZSaX5CmrTvTWq5u6rkoEAJdjpR9XiJOYmkLOYvWNB\nYoE6xqELAgMBAAECggEAR86y0r5azE4RseZ2tUk2dsK/FLZjLRjGt2GFLLK1CrNN\nfO6q0Qk30d2x1bFDn/mUeeA4kjc0AJrsxAc8K0rs94HcSQ5eegNIkoKUxXy7qoFo\noy6LJYI7vC3lPNnWDu7NuxL/Sx+Y5rpMYpLW/Lmdo0lqC+MIqziwHJta67FUtSjz\nQ+RcVw9Gyl78Jr+Ze3dE8OPkremrHWnRSjqGl+fFwUjiNp27oUof3un1gWGTd/eT\nQTNx9yISVsEZRQmq5jLzxl/e8dKEMx2bTQkrFcFTyUqrZtuk0jlz6OqDaXaFFknr\nCWxKtwwvL9b5xltRBZRlxwvCHJWUnURMrQhDwFEoOQKBgQD8JAq6qUhDNfXa0AC3\nCRMSHbatMHK6MgkZlaw7ukQFVBkenvvTQb7cM3Dn5vFUrmInimWKPnToK5Yk4E7P\nbxMI+m/QVOvgIWGnSk9J+49vgwElQ6OZTo0ov0qLwRiOypQg1uLng/YAcOMZnwIm\nHDRrIsj+MPs59DtroZyGLB00vwKBgQD2Bqxwz8BVzZ4Q5YqjdGey3o4cFtRuU1Xf\nv7WMO1ldE8InD1lSJnCQPxjXipjnvmJAsTKoeGgZWwZqcNoxzoFyTEfCliBt1weJ\nV1CTHNvnPlWuRBmFqkPcgArAKlmuwmLQw+Ck0RPVF3LW5DdVhCZQkB9Lg/Zlm8u4\nGPqhgccqtQKBgQCrd3c0aVqTGmcPXtSdpLYrY7mPHZtntA8sLvTpyUnotcA/aq6m\ng9dfuDvX+N21UMG/UgardL3cBYgdm8z8k/TF7kmLy7R8vzbBpW82SLTKiLSGuvDO\nmPS1+SCg2bfxoyIJExlLiBoLQrmt+sxjTlr3YLh+5KB0UPr3vvfK5sUV0QKBgQC2\nPPFEyw7cP+fC+lS8iQA7RZGciuimJEKq75WqH1gtkvIw/rSaHnEo2CQtnLNwjdy3\nsMomcrIhfgR9mcR2OlI2ePx6zbuNwUcK28uKfUkCvHC5GiaRlTKZRZsxBu3Rfpm1\nrDJdw6VeJfVh6kB2ruG2sVsNE93THBlF7/LO6ZO/NQKBgEqHYOHAQ4IB4E+C9iWb\nbFvF83W76xam9aNfJDTKkt49bdMfOmvKADkjscN4O5HhwUimqKpxuu0pwsegs/d9\nkV+QFCG2jFefjxQny3DfP096Ep+y3ozucXqu1JYGxsEoJeuUveWUOBDJNy6yf3EQ\nEYd4QCZeMY2B+btQGhKnWVPt\n-----END PRIVATE KEY-----\n",
+  "client_email": "yara-service-account@osl-functionality.iam.gserviceaccount.com",
+  "client_id": "107256409467544770110",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/yara-service-account%40osl-functionality.iam.gserviceaccount.com"
+}

@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block title %}
+Asesorias Online - Buscar Documento
+{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('buscarDocumentos.static', filename='layout_autobook.css') }}">
+<script>
+    if ( window.history.replaceState ) {
+        window.history.replaceState( null, null, window.location.href );
+    }
+</script>
+{% endblock %}
+
+{% block content %}
+   
+<body onLoad="addOption_list()" ;>
+ 
+    <div class="card-body">
+        <form  method="post" action="#" , enctype="multipart/form-data">
+            <h1>Busca documentos</h1>
+
+
+            <div>
+                <label for="materias">Elige Materia:</label>
+                <select class="input form-control" name="materias" id="materias">
+                    <option value=""></option>
+                    {%for materia in materias%}
+                    <option value="{{materia}}">{{materia}}</option>
+                    {%endfor%}
+                </select>
+            </div>
+            <br>
+
+
+            <div>
+                <input type="submit" value="Buscar" style="height:65px; width:140px" class="btn btn-info">
+
+            </div>
+            <br>
+            <table id="datacontainer" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Titulo</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for doc in documentos %}
+                    <tr>
+                        <td>{{ doc['titulo'] }}</td>
+                        <td><a href="{{ doc['archivo'] }}" target="_blank">{{ doc['archivo'] }}</a></td>
+                    </tr>
+                    {%endfor%}
+                </tbody>
+            </table>
+
+        </form>
+        <script>
+            function addOption(selectbox, text, value) {
+                var optn = document.createElement("OPTION");
+                optn.text = text;
+                optn.value = value;
+                selectbox.options.add(optn);
+            }
+            $(function () {
+                $("#code").select2();
+            });
+            $(function () {
+                $("#coin").select2();
+            }); 
+        </script>
+    </div>
+
+
+
+</body>
+
+{% endblock %}

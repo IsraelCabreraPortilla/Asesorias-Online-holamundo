@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block title %}
+Asesorias Online - Buscar Asesoria
+{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('buscarAsesorias.static', filename='layout_autobook.css') }}">
+<script>
+    if ( window.history.replaceState ) {
+        window.history.replaceState( null, null, window.location.href );
+    }
+</script>
+{% endblock %}
+
+{% block content %}
+   
+<body onLoad="addOption_list()" ;>
+ 
+    <div class="card-body">
+        <form  method="post" action="#" >
+            <h1>Busca Asesoria</h1>
+
+            <div>
+                <label for="materias">Elige Materia:</label>
+                <select class="input form-control" name="materias" id="materias">
+                    <option value=""></option>
+                    {%for materia in materias%}
+                    <option value="{{materia}}">{{materia}}</option>
+                    {%endfor%}
+                </select>
+            </div>
+            <br>
+
+
+            <div>
+                <input type="submit" value="Buscar" style="height:65px; width:140px" class="btn btn-info">
+
+            </div>
+            <br>
+            <table id="datacontainer" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Telefono</th>
+                        <th>Correo</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for i in informacion %}
+                    <tr>
+                        <td>{{ i['nombre'] }}</td>
+                        <td>{{ i['apellido'] }}</td>
+                        <td>{{ i['telefono'] }}</td>
+                        <td><a href="mailto:{{ i['correo'] }}">{{ i['correo'] }}</a></td>
+                        <td>$ {{  i['precio'] }}</td>
+
+                    </tr>
+                    {%endfor%}
+                </tbody>
+            </table>
+
+        </form>
+        <script>
+            function addOption(selectbox, text, value) {
+                var optn = document.createElement("OPTION");
+                optn.text = text;
+                optn.value = value;
+                selectbox.options.add(optn);
+            }
+            $(function () {
+                $("#code").select2();
+            });
+            $(function () {
+                $("#coin").select2();
+            }); 
+        </script>
+    </div>
+
+
+
+</body>
+
+{% endblock %}
