@@ -14,8 +14,6 @@ from gspread.utils import finditem
 from gspread.models import Worksheet
 from gspread.exceptions import APIError
 from oauth2client.service_account import ServiceAccountCredentials
-from pydrive.auth import GoogleAuth
-from pydrive.drive import GoogleDrive
 from google.cloud import bigquery
 from google.oauth2 import service_account
 from googleapiclient.http import *
